@@ -1,0 +1,95 @@
+  497  git clone https://github.com/nafasameri/ESAI2.git
+  498  git flow init
+  499  git branch
+  500  git status
+  501  git checkout master 
+  502  git status
+  503  git commit -m "A: add README.md"
+  504  git add .
+  505  git commit -m "A: add README.md"
+  506  git log --graph
+  507  git merge develop 
+  508  git merge master 
+  509  git log --graph
+  510  git checkout develop 
+  511  git log --graph
+  512  git merge master 
+  513  git log --graph
+  514  git add .
+  515  git status
+  516  git commit -m "B: add fileA.txt"
+  517  git log --graph
+  518  git feature add feature1
+  519  git flow
+  520  git flow feature add feature1
+  521  git flow feature feature1
+  522  git flow feature help
+  523  git flow log
+  524  git flow feature start feature1
+  525  git status
+  526  git add .
+  527  git commit -m "C: feature 1 wip"
+  528  git status
+  529  git add .
+  530  git commit -m "D: add feature 1"
+  531  git flow feature finish feature1
+  532  git flow log
+  533  git log --graph
+  534  git flow feature start feature2
+  535  git status
+  536  git status
+  537  git add .
+  538  git commit -m "F: feature 2 wip"
+  539  git status
+  540  git checkout develop 
+  541  git flow release start release1
+  542  git status
+  543  git add .
+  544  git status
+  545  git commit -m "G: fix feature 1 bug X"
+  546  git log --graph
+  547  git flow release finish release1
+  548  git log --graph
+  549  git log --graph --oneline
+  550  git branch
+  551  git checkout feature/feature2 
+  552  git status
+  553  git add .
+  554  git commit -m "F1: feature 2 wip"
+  555  git flow hotfix start hotfix1
+  556  git status
+  557  git add .
+  558  git commit -m "K: fix feature 1 bug Y"
+  559  git flow hotfix finish hotfix1
+  560  git log --graph --oneline
+  561  git commit -m "L: Merge branch"
+  562  'hotfix1'
+  563  git commit -m "L: Merge branch hotfix1"
+  564  git log --graph --oneline
+  565  git merge develop 
+  566  git log --graph --oneline
+  567  git checkout develop 
+  568  git log --graph --oneline
+  569  git flow feature start feature2
+  570  git branch 
+  571  git checkout feature/feature2 
+  572  git status
+  573  git add .
+  574  git commit -m "F2: feature 2 wip"
+  575  git log --graph --oneline
+  576  git branch 
+  577  git checkout develop 
+  578  git log --graph --oneline
+  579  git checkout hotfix/hotfix1 
+  580  git log --graph --oneline
+  581  git checkout master 
+  582  git log --graph --oneline
+  583  history | tee history-git.txt
+  584  history tail 497 | tee history-git.txt
+  585  history tail 
+  586  history 100
+  587  history 90 | tee history-git.txt
+  588  history 91 | tee history-git.txt
+  589  history 92 | tee history-git.txt
+  590  history 93 | tee history-git.txt
+  591  history 95 | tee history-git.txt
